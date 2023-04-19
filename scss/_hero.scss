@@ -1,8 +1,6 @@
 .hero {
-  padding: 0 15px;
-
   @media (min-width: 615px) {
-    padding: 0 38.25px;
+    // padding: 0 38.25px;
   }
 
   @media (min-width: 1030px) {
@@ -22,6 +20,7 @@
     }
 
     @media (min-width: 1030px) {
+      max-width: 1010px;
       padding: 66px;
       margin: 0;
     }

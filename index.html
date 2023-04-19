@@ -1,72 +1,150 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-<head>
-  <meta charset="UTF-8">
-  <title>Sass</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="scss/main.scss" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="scss/main.scss" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-wrapper">
+        <a href="" class="logo"> Verti </a>
+        <span> by HTML5 UP </span>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a class="active" href="">Welcome</a></li>
+          <li><a href="">Dropdown</a></li>
+          <li><a href="">Left Sidebar</a></li>
+          <li><a href="">Right Sidebar</a></li>
+          <li><a href="">No Sidebar</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="header">
-    <div class="logo-wrapper">
-      <a href="" class="logo">
-        Verti
-      </a>
-      <span>
-        by HTML5 UP
-      </span>
-    </div>
-    <nav class="navigation">
-      <ul>
-        <li><a class="active" href="">Welcome</a></li>
-        <li><a href="">Dropdown</a></li>
-        <li><a href="">Left Sidebar</a></li>
-        <li><a href="">Right Sidebar</a></li>
-        <li><a href="">No Sidebar</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section class="hero">
-    <div class="container hero-container">
-      <div class="row">
-        <div class="col-7 hero-info">
-          <h1>Hi. This is Verti.</h1>
-          <p>It's a free responsive site template by HTML5 UP</p>
-        </div>
-        <div class="col-5 hero-buttons">
-          <button class="btn">Ok let's go <span class="fas fa-arrow-circle-right"></span></button>
-          <button class="btn btn--white">More info <span class="fas fa-question-circle"></span></button>
+    <section class="hero container">
+      <div class="hero-container">
+        <div class="row">
+          <div class="col-7 hero-info">
+            <h1>Hi. This is Verti.</h1>
+            <p>It's a free responsive site template by HTML5 UP</p>
+          </div>
+          <div class="col-5 hero-buttons">
+            <button class="btn">
+              Ok let's go <span class="fas fa-arrow-circle-right"></span>
+            </button>
+            <button class="btn btn--white">
+              More info <span class="fas fa-question-circle"></span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="articles container">
+      <div class="row">
+        <div class="col-4 box">
+          <img src="./images/green — kopia.jpg" alt="Zielona trawa" />
+          <div class="inner">
+            <div>
+              <h2>Put something here</h2>
+              <p>Maybe here as well I think</p>
+            </div>
+            <p>
+              Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+              Praesent sed semper amet bibendum tristique fringilla.
+            </p>
+          </div>
+        </div>
 
-  
-  <section class="articles container">
-    <div class="row">
-      <div class="col-4">1</div>
-      <div class="col-4">2</div>
-      <div class="col-4">3</div>
-    </div>
-  </section>
-  
-  
-  <section class="about">
-    
-  </section>
-  
-  
-  <footer class="footer container">
-    <div class="row">
-      <div class="col-3">Random Stuff</div>
-      <div class="col-3">Random Stuff</div>
-      <div class="col-3">Random Stuff</div>
-      <div class="col-3">Contact Us</div>
-    </div>
-  </footer>
+        <div class="col-4 box">
+          <img src="./images/blue — kopia.jpg" alt="Góry" />
+          <div class="inner">
+            <div>
+              <h2>An interesting title</h2>
+              <p>This is also an interesting subtitle</p>
+            </div>
+            <p>
+              Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+              Praesent sed semper amet bibendum tristique fringilla.
+            </p>
+          </div>
+        </div>
 
-</body>
+        <div class="col-4 box">
+          <img src="./images/night.jpg" alt="Nocne miasto" />
+          <div class="inner">
+            <div>
+              <h2>Oh, and finally ...</h2>
+              <p>Here's another intriguing subtitle</p>
+            </div>
+            <p>
+              Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+              Praesent sed semper amet bibendum tristique fringilla.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about"></section>
+
+    <footer class="footer container">
+      <div class="row box">
+        <div class="col-3">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <h3>Contact Us</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p>
+            1234 Fictional Road
+            <br />
+            <br />
+            Nashville, TN 00000
+            <br />
+            <br />
+            (800) 555-0000
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

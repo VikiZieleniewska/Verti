@@ -1,0 +1,25 @@
+.footer {
+  color: #696969;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #444;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  ul > li {
+    list-style-type: none;
+    line-height: 33px;
+
+    a {
+      font-size: 14px;
+      color: inherit;
+    }
+  }
+}
